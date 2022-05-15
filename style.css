@@ -12,26 +12,31 @@ html {
 
 /* adjust typography defaults */
 body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
-  background-color: #FFDEE9;
+margin: 1rem;
+font-family: sans-serif;
+line-height: 1.5;
+background-color: #FFDEE9;
 background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 
 }
 h1{
+display:flex;
+justify-content:center;
+}
+h2{
   display:flex;
   justify-content:center;
 }
 .button{
-  display:flex;
-  justify-content:center;
+display:flex;
+justify-content:center;
 }
 
 .image{
-  display:flex;
-  justify-content:center;
-  width:auto;
-  height:500px;
+display:flex;
+justify-content:center;
+width:auto;
+height:500px;
 }
+
 /* images and videos max out at full width */
