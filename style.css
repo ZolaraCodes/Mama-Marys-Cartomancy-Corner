@@ -13,17 +13,16 @@ html {
 /* adjust typography defaults */
 body {
 margin: 1rem;
-font-family: 'Monoton', cursive;
-font-size:23px;
+font-family: 'Mystery Quest', cursive;
+font-size:19px;
 line-height:1.5;
 background-color: #FFDEE9;
 background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-
-
 }
 article{
 display:flex;
 justify-content:center;
+  font-size:40px;
 }
 h2{
   display:flex;
