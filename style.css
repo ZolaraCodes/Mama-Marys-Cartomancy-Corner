@@ -23,7 +23,7 @@ article{
 display:flex;
 justify-content:center;
   font-size:40px;
-color:#e43e6f;
+color:#ffa7b6;
   
 }
 p{
@@ -31,7 +31,7 @@ p{
   justify-content:center;
   border-style:solid;
   border-color:black;
- color:#e43e6f;
+ color:black;
   
 }
 .button{
