@@ -17,6 +17,7 @@ font-family: sans-serif;
 line-height: 1.5;
 background-color: #FFDEE9;
 background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+font-family: 'Monoton', cursive;
 
 }
 h1{
@@ -38,5 +39,7 @@ justify-content:center;
 width:auto;
 height:500px;
 }
+
+
 
 /* images and videos max out at full width */
