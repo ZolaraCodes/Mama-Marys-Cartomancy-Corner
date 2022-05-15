@@ -19,14 +19,19 @@ body {
 background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 
 }
-.main{
+h1{
   display:flex;
   justify-content:center;
-  
+}
+.button{
+  display:flex;
+  justify-content:center;
 }
 
 .image{
-  width:10%;
+  display:flex;
+  justify-content:center;
+  width:auto;
+  height:500px;
 }
-
 /* images and videos max out at full width */
