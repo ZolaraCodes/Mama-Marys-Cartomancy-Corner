@@ -19,15 +19,14 @@ body {
 background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 
 }
-
 .main{
-   display:flex;
+  display:flex;
   justify-content:center;
-   height: 50%;
-  max-width: 50%;
+  
 }
+
+.image{
+  width:10%;
+}
+
 /* images and videos max out at full width */
-img,
-video {
- 
-}
