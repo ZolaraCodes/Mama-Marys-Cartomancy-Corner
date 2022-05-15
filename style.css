@@ -23,13 +23,15 @@ article{
 display:flex;
 justify-content:center;
   font-size:40px;
- 
+ flex-wrap
   
 }
 p{
-  display:flex;
+  display:inline-flex;
   justify-content:center;
   border-style:solid;
+ 
+  
 }
 .button{
 display:flex;
