@@ -41,7 +41,7 @@ p{
   border: none;
   margin:auto;
   outline: none;
-  color: rgb(255, 192, 203);
+  color: rgb(255, 0, 203);
   background: #111111;
   cursor: pointer;
   position: relative;
@@ -67,7 +67,7 @@ p{
     #ff0000
   );
   position: absolute;
-  top: -2px;
+  top: -5px;
   left: -2px;
   background-size: 400%;
   z-index: -1;
