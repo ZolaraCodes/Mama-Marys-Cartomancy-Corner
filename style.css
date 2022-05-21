@@ -40,8 +40,8 @@ p{
   padding: 0.6em 2em;
   border: none;
   outline: none;
-  color: rgb(216, 191, 255);
-  background: 	#D8BFD8;
+  color: rgb(159, 43, 255);
+  background: 	#111111;
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -97,8 +97,8 @@ p{
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #222222;
-  left: 0;
+  background: #D8BFD8;
+  left: 6;
   top: 0;
   border-radius: 10px;
 }
