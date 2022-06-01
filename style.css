@@ -59,8 +59,21 @@ p{
   flex-direction: column;
 }
 
+.popup .popup-title {
+  color: #32325d;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: 900;
+  margin-top: 0;
+}
 
-
+.popup .popup-body {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #6b7c93;
+  font-weight: 500;
+  margin-bottom: 2.1em;
+}
 
 #btn-2 {
     background-image: repeating-linear-gradient(-45deg, 
