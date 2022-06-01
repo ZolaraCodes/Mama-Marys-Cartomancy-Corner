@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway")
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -30,52 +30,7 @@ p{
   border-color:black;
   color:black;}
   
-.container {
-  display: flex;
-  -webkit-display: box;
-  -moz-display: box;
-  -ms-display: flexbox;
-  -webkit-display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  padding: 6%;
-  margin: 0;
-}
 
-.popup {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  background-color: #fff;
-  border-radius: 6px;
-  padding: 3rem 2rem;
-  box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.25);
-  text-align: center;
-}
-.popup .popup-content  {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-
-
-
-#btn-2 {
-    background-image: repeating-linear-gradient(-45deg, 
-      #7BDFF2 10px 30px,
-      #B2F7EF 30px 50px,
-      #EFF7F6 50px 70px,
-      #F7D6E0 70px 90px,
-      #F2B5D4 90px 110px
-  );
-  color: black;
-}
-
-#btn-2:hover {
-  background-position: 20% center;
-}
 
 .image{
 display:flex;
