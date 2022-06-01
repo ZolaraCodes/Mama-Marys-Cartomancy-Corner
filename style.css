@@ -36,7 +36,7 @@ p{
   -moz-display: box;
   -ms-display: flexbox;
   -webkit-display: flex;
-
+   
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
@@ -74,6 +74,7 @@ p{
   color: #6b7c93;
   font-weight: 500;
   margin-bottom: 2.1em;
+ 
 }
 
 .popup .popup-button {
