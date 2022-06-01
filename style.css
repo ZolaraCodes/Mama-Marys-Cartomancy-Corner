@@ -36,6 +36,7 @@ p{
   -moz-display: box;
   -ms-display: flexbox;
   -webkit-display: flex;
+
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
@@ -47,7 +48,7 @@ p{
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 6px;
   padding: 3rem 2rem;
   box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.25);
@@ -60,7 +61,7 @@ p{
 }
 
 .popup .popup-title {
-  color: #32325d;
+  color: #FF69B4;
   font-size: 1.8em;
   line-height: 1.5em;
   font-weight: 900;
@@ -75,6 +76,25 @@ p{
   margin-bottom: 2.1em;
 }
 
+.popup .popup-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 1em 3em;
+  background-size: 300% 300%;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  background-image: linear-gradient(to right, #895cf2 0%, #ffabf4 50%, #895cf2 100%);
+  transition: 0.5s;
+}
+
 #btn-2 {
     background-image: repeating-linear-gradient(-45deg, 
       #7BDFF2 10px 30px,
@@ -83,7 +103,7 @@ p{
       #F7D6E0 70px 90px,
       #F2B5D4 90px 110px
   );
-  color: black;
+  color: #FF69B4;
 }
 
 #btn-2:hover {
