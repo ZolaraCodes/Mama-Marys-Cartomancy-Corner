@@ -30,79 +30,44 @@ p{
   justify-content:center;
   border-style:solid;
   border-color:black;
- color:black;
+  color:black;}
   
-}
-.button{
-  display:flex;
-  margin:auto;
-  padding: 0.1em 2em;
-  border: none;
-  outline: none;
-  color: rgb(159, 43, 255);
-  background: 	#111111;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
-  position: absolute;
-  top: -20px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-}
-
-@keyframes glowing-button-85 {
-  0% {
-    background-position: 0 0;
+.button {
+  background-color: $blue-color; 
+  background-image;linear-gradient:45deg, $blue-color 0%, $pink-color 100%));
+  border-image: linear-gradient(45deg, lighten($blue-color,20%) 0%, lighten($pink-color,20%) 100%);
+  border-image-slice: 1;
+  color: white;}
+  
+  &:before {
+    border-image-slice: 1;
+    include background-image(linear-gradient(45deg, $blue-color 0%, adjust-hue($blue-color,10%) 100%));
+    left: -0.75em;
+    top: .15em;
   }
-  50% {
-    background-position: 400% 0;
+  
+  &:after {
+    border-image-slice: 1;
+    @include background-image(linear-gradient(45deg, $blue-color 0%, $pink-color 100%));
+    bottom: -0.75em;
+    right: .15em;
   }
-  100% {
-    background-position: 0 0;
+  
+  &:hover {
+    background: white;
+    border-image: linear-gradient(45deg, $blue-color 0%, $pink-color 100%);
+    border-image-slice: 1;
+    color: $slate-color;
+    
+    &:before {
+      height: 100%;
+    }
+    &:after {
+      width: 100%;
+    }
   }
-}
 
-.button:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #D8BFD8;
-  left: 0;
-  top: -30;
-
-  border-radius: 10px;
-}
-
+ 
 
 .image{
 display:flex;
