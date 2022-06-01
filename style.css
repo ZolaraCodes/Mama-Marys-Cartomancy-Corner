@@ -65,7 +65,7 @@ p{
     #ff0000
   );
   position: absolute;
-  top: -2px;
+  top: -20px;
   left: -2px;
   background-size: 400%;
   z-index: -1;
@@ -98,7 +98,7 @@ p{
   height: 100%;
   background: #D8BFD8;
   left: 0;
-  top: -10;
+  top: -30;
 
   border-radius: 10px;
 }
