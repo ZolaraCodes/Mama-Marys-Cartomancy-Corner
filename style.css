@@ -118,10 +118,9 @@ width:auto;
 height:500px;
 }
 
-@media only screen and (min-width: 1200px){
-  
-    background: ########;
-  }
+@media screen and (max-width:720px) {
+/*CSS code for devices with a maximal width of 720 px */
+}
 
 
 /* images and videos max out at full width */
