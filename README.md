@@ -1,22 +1,17 @@
-# Hello Website (blank)
+# Mary's Cartomancy Corner 🔮🪄
 
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
+A  website that generates divinations with the help of API's
 
-## What's in this project?
+##  What did I Learn? 🤔
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
+This project helped me gain a better understanding of how to implement APi's into my work. I enojed exploring and playing around all the data bases.
 
-← `index.html`: This is the main HTML page for your site.
+## Authors
 
-← `style.css`: CSS files add styling rules to your content.
+- [@ZolaraCodes](https://github.com/ZolaraCodes)
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
+## 🔗 Get in Touch! 👩🏾‍💻
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://zolaracodes.webflow.io/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rozalyn-d-5b2053b3)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/zolara_png)
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
